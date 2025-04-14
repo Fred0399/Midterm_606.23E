@@ -1,0 +1,37 @@
+/////////////////////////////////////////////////////////////////////
+
+//1
+
+/////////////////////////////////////////////////////////////////////
+
+To define a class that doesn't require a full, concrete implementation of its entire interface, use the abstract modifier.
+
+There is a rectangle, a square, a circle, a triangle, but the geometric figure itself also does not have a specific embodiment. And usually abstract classes are used to describe such things.
+
+abstract class Shape {
+}
+*example 
+
+As a rule, abstract classes declare some common functionality that is implemented in their own way by the inheriting classes. For example, a geometric figure class can have methods for calculating the perimeter, area, etc.
+
+Mixins are a way of defining code that can be reused in multiple class hierarchies. They are intended to provide member implementations en masse.
+
+To use a mixin, use the with keyword followed by one or more mixin names:
+
+	class Musician extends Performer with Musical {
+	  // ···
+	}
+
+	class Maestro extends Person with Musical, Aggressive, Demented {
+	  Maestro(String maestroName) {
+	    name = maestroName;
+	    canConduct = true;
+	  }
+	}
+
+*example from google
+
+
+
+you can create an object of a concrete class, but you can't create an abstract one
+

@@ -1,0 +1,6 @@
+To define a class that does not require a full,concrete implementation of its entire interface,we use "abstract class".
+Abstract classes cannot be constructed from any library,whether its own or an outside library.
+
+In concrete class all methods have a complete implementation so we can instantiate them,and every method declared in the class has a cleas,working implementation.
+
+Classes can use "extends" clause,but mixins cannot and must not declare ny generative constructors.

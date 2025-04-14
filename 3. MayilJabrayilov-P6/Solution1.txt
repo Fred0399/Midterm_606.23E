@@ -1,0 +1,3 @@
+In Dart, a closure is a function object that has access to variables in its lexical scope, even when the function is called outside that scope. In simpler terms, a closure “closes over” its surrounding environment, preserving the variables and their values, even after the surrounding function has finished executing. This concept can be powerful for maintaining state, creating callbacks, and encapsulating functionality.
+
+Closures capture (remember) the variables they reference from their containing scope. These captured variables are available for the closure to use, even if the outer function has finished executing.
