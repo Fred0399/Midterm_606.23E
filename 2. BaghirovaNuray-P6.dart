@@ -1,4 +1,4 @@
-/1.Answer
+// 1.Answer
 //A closure is a function object that has access to variables in its lexical scope, even when the function is used outside of that scope. Closure is a special function also called lambda expression In simpler terms, it's a function that remembers the environment in which it was created.
 //Closures are particularly useful in several scenarios:
 
@@ -21,12 +21,12 @@ String reversedString(String input) {
   return reversed;
 }
 
-void main() {
-  String main = "SHINE BRIGHT LIKE A DIAMOND";
-  String reversed = reversedString(main);
-  print("Original: $main");
-  print("Reversed: $reversed");
-}
+// void main() {
+//   String main = "SHINE BRIGHT LIKE A DIAMOND";
+//   String reversed = reversedString(main);
+//   print("Original: $main");
+//   print("Reversed: $reversed");
+// }
 
 
 //3.Answer
@@ -42,10 +42,10 @@ class Notification {
   }
 }
 
-void main() {
-  Notification notification = Notification('Incendies', 'Movie name');
-  notification.send();
-}
+// void main() {
+//   Notification notification = Notification('Incendies', 'Movie name');
+//   notification.send();
+// }
 
 
 //4.Answer

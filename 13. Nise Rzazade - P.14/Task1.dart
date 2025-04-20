@@ -1,5 +1,7 @@
 
 /*Abstract Class
+
+
 An abstract class is like a blueprint. It can define methods, but some of them might not have any code (just the name). You cannot create an object from an abstract class. It's meant to be extended by other classes that will fill in the details.
 
  Concrete Class
@@ -10,3 +12,5 @@ A mixin is used to add extra functionality to a class (like flying, singing, etc
 - Abstract class: defines what something should do.
 - Concrete class: defines what something does.
 - Mixin: adds extra abilities to a class.
+
+*/

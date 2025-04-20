@@ -18,35 +18,35 @@
 /* Question 2
 Create a list of integers and use '.map()' to return a list of their squares. */ 
 
-/*void squareNumbers() {
+void squareNumbers() {
   List<int> nums = [1, 2, 3, 4];
   var square = nums.map((n) => n * n).toList();  /* it will just multiply with itself and it will be power of the number as square */
-  print(square); // [2, 4, 6, 8]
+  print(square); // Wrong: [2, 4, 6, 8] -> Right: [1, 4, 9, 16]
 }
 
-void main() {
-  squareNumbers();
-}
+// void main() {
+//   squareNumbers();
+// }
 
-*/
 
 //------------------------------------------------------------
 
 
-/* Question 3
-Write a Dart function that checks if a string is a palindrome 
+// Question 3
+// Write a Dart function that checks if a string is a palindrome 
 // we use bool function to check true or false
+
 bool ispalindrome(String input) {
+  /// NOTE: Case sensitivity and empty spaces should have been checked here;
   // Check if the string is equal to its reversed version
   return input == input.split('').reversed.join();
 }
 
-void main() {
-  String name = "radar"; // Example input
-  print(ispalindrome(name)); // Should print: true
-}
+// void main() {
+//   String name = "  radaR"; // Example input
+//   print(ispalindrome(name)); // Should print: true
+// }
 
-*/
 
 //-------------------------------------------------------------
 
@@ -55,7 +55,7 @@ Build a class hierarchy: 'User' -> 'Admin', where 'Admin' has additional permiss
 to call parent methods */
 
 
-/*
+
 // Class to represent a User
 class User {
   String name;
@@ -110,6 +110,6 @@ void main() {
   admin.manageUsers(); // Outputs: Narmin Orujova is managing users with permissions: [add_user, delete_user, edit_user]
   admin.logout();      // Outputs: Narmin Orujova has logged out.
 }
-*/
+
 
 

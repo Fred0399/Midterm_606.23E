@@ -1,8 +1,8 @@
-Explanation;
+// Explanation;
 
-Shape is an abstract class, meaning it cannot be instantiated.
-•area() is an abstract method, so any subclass must implement it.
-•Triangle implements area() using the formula for the area of a triangle: 0.5 * base * height.
+// Shape is an abstract class, meaning it cannot be instantiated.
+// •area() is an abstract method, so any subclass must implement it.
+// •Triangle implements area() using the formula for the area of a triangle: 0.5 * base * height.
 
 // Abstract class
 abstract class Shape {

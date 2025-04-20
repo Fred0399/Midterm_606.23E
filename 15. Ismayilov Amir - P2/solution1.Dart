@@ -6,9 +6,9 @@ void main(){
 }
 
 //The map() method is used for represents a key-value pair data structure 
-
-void main(){
-  List<int> numbers = [1,2,3,4,5];
-  var evenumb = numbers.map((n) => n * n).toList();
-  print(evenumb);
-}
+/// NOTE: confusion in the answer with data structure;
+// void main(){
+//   List<int> numbers = [1,2,3,4,5];
+//   var evenumb = numbers.map((n) => n * n).toList();
+//   print(evenumb);
+// }

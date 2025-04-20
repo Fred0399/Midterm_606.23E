@@ -1,25 +1,30 @@
 // task 1
 //map()- used to transform each element in a list .Returns a new list
 //where()- used to filter elements that satisfy a given condition. Returns a new list
-void main() {
-  List<int> numbers = [1, 2, 3, 4, 5];
-  var squared = numbers.map((n)=> n*n);
-  print(squared.toList());
-  var evens = numbers.where((n)=> n%2 == 0);
-  print(evens.toList());
-}
+
+// NOTE:
+// The answer is particularly weak in:
+// No specific use cases
+
+// void main() {
+//   List<int> numbers = [1, 2, 3, 4, 5];
+//   var squared = numbers.map((n)=> n*n);
+//   print(squared.toList());
+//   var evens = numbers.where((n)=> n%2 == 0);
+//   print(evens.toList());
+// }
 
 
 
 
 
 // task 2
-void main() {
-  int? a;
-  int b = 5;
-  int sum = ( a ?? 0) + b;
-  print(sum);
-}
+// void main() {
+//   int? a;
+//   int b = 5;
+//   int sum = ( a ?? 0) + b;
+//   print(sum);
+// }
 
 
 
@@ -32,9 +37,9 @@ void main() {
   return "Obese";
 }
 
-void main() {
-  print(computeBMI(70, 1.75)); // Normal
-}
+// void main() {
+//   print(computeBMI(700, 1.75)); // Normal
+// }
 
 
 // task4
